@@ -56,5 +56,5 @@ Mi máquina usa _Lightdm_ como gestor de inicio de sesiones.
 Por defecto, cuando _bspwm_ se instala guarda su sesión en el directorio `/usr/local/share/sessions`. 
 Si iniciaramos  _Lightdm_ este no reconocería la sesión de  _bspwm_ porque no se encuentra en el directorio `/usr/share/xsessions`. Por lo tanto, debemos cambiar la sesión del _bspwm_ de directorio.
 ```
-sudo cp /usr/local/share/sessions/bspwm.desktop /usr/share/xsessions
+sudo cp /usr/local/share/xsessions/bspwm.desktop /usr/share/xsessions
 ```
