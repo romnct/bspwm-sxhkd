@@ -1,7 +1,10 @@
 # Instalación de bspwm y de sxhkd
 En este repositorio se encuentra los archivos de configuración y una guía de instalación del gestor de ventanas _bspwm_ desde la fuente.
 ## Dependencias
-En mi caso, mi sistema es un Ubuntu y siguiendo la [wiki](https://github.com/baskerville/bspwm/wiki) del creador debemos instalar las siguientes dependencias:
+En mi caso, mi sistema es un Ubuntu y siguiendo la [wiki](https://github.com/baskerville/bspwm/wiki) del creador debemos instalar las siguientes dependencias.
+```
+sudo apt install update
+```
 ```
 sudo apt install libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-util0-dev libxcb-ewmh-dev libxcb-keysyms1-dev libxcb-shape0-dev
 ```
