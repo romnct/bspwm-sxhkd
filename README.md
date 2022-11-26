@@ -3,7 +3,7 @@ En este repositorio se encuentra los archivos de configuración y una guía de i
 ## Dependencias
 En mi caso, mi sistema es un Ubuntu y siguiendo la [wiki](https://github.com/baskerville/bspwm/wiki) del creador debemos instalar las siguientes dependencias.
 ```
-sudo apt install update
+sudo apt update
 ```
 ```
 sudo apt install libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-util0-dev libxcb-ewmh-dev libxcb-keysyms1-dev libxcb-shape0-dev
