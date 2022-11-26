@@ -11,10 +11,10 @@ sudo apt install libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb
 ## Instalación
 Clonamos los repositorios oficiales.
 ```
-git clone --depth=1 https://github.com/baskerville/bspwm.git $HOME/temp
+git clone --depth=1 https://github.com/baskerville/bspwm.git $HOME/temp/bspwm
 ```
 ```
-git clone --depth=1 https://github.com/baskerville/sxhkd.git
+git clone --depth=1 https://github.com/baskerville/sxhkd.git $HOME/temp/sxhkd
 ```
 Compilamos e instalamos.
 ```
